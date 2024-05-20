@@ -1,17 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
 import { useState, React } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Switch } from 'react-router-dom';
 //Components
 import TopNavigationBar from './components/NavigationBar';
-import HomePage from './pages/Home/HomePage';
-import LandingPage from './pages/Home/LandingPage';
+import HomePage from './pages/HomePage';
+import LandingPage from './pages/LandingPage';
 
 //antD
 import { Layout, ConfigProvider, theme, Button } from 'antd';
 const { Header, Content, Footer } = Layout;
-
-
 
 
 function App() {
@@ -29,19 +27,17 @@ function App() {
       }}>
         
         <BrowserRouter>
+
           <Layout>
-
-            <Header>
-              <TopNavigationBar />
-              
-            </Header>
-
+            
             <Layout>
-              {/* <Sider>left sidebar</Sider> */}
-              <Content>
+              <TopNavigationBar/>
+              
+              <Content style={{ padding: '0 48px', }}>
                 <Routes>
+                  <Route path='/' element={<LandingPage />}/>
                   <Route path='/home' element={<HomePage />}/>
-                  <Route path='/landing' element={<LandingPage />}/>
+                  
                 </Routes>
               </Content>
             </Layout>
@@ -51,8 +47,8 @@ function App() {
                 Change Theme to {isDarkMode ? "Light" : "Dark"}
               </Button>
             </Footer>
-
           </Layout>
+
         </BrowserRouter>
 
 

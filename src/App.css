@@ -1,3 +1,17 @@
+.app-content {
+  min-height: 80vh;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+  justify-content: center;
+}
+
+.top-nav {
+  display: 'flex';
+  justify-content: 'center';
+  
+}
+
+
 .App {
   text-align: center;
 }

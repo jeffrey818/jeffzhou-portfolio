@@ -18,8 +18,8 @@ const LandingPage = () => {
   const myInterest = [
     "Full Stack Developer",
     "Software Developer",
-    "Music",
-    "Sports, Basketball fan",
+    "Music Fan",
+    "Basketball Fan",
   ]
 
   return (
@@ -32,9 +32,9 @@ const LandingPage = () => {
       
       <Row style={{justifyContent: 'center', alignItems: 'center' }}>
         
-        <Col xs={22} sm={22} md={20} lg={18} xl={16} >
+        <Col xs={22} sm={22} md={20} lg={18} xl={18} >
             <div >
-                <h3 >Welcome to my personal website,</h3>
+            <h3 >Welcome to my personal website,</h3>
                 <div><h1 >I'm <b> Ziyu Zhou</b></h1> </div>
                 <h2 >I'm a <b>{myInterest.map((interest) => interest + " | ")}</b> </h2>
                 

@@ -20,7 +20,7 @@ const TopNavigationBar = () => {
       icon: <AppstoreOutlined />,
     },
     {
-      label: <Link to="/home" >Home</Link>,
+      label: <Link to="/home" >About & Skills</Link>,
       key: 'home',
       icon: <HomeOutlined />,
     },

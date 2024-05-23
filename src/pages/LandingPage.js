@@ -1,10 +1,10 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 // import background from '../images/background.jpg'
 
 //antD
-import { ConfigProvider, Button, Col, Layout, Row } from 'antd'
-const { Content } = Layout
+import { ConfigProvider, Button, Col, Row } from 'antd'
+// const { Content } = Layout
 
 
 const LandingPage = () => {
@@ -30,12 +30,12 @@ const LandingPage = () => {
       
        
       
-      <Row style={{justifyContent: 'center', alignItems: 'center' }}>
+      <Row justify={'center'} align={'middle'}>
         
         <Col xs={22} sm={22} md={20} lg={18} xl={18} >
             <div >
             <h3 >Welcome to my personal website,</h3>
-                <div><h1 >I'm <b> Ziyu Zhou</b></h1> </div>
+                <div><h1 >I'm <b> Ziyu(Jeffrey) Zhou</b></h1> </div>
                 <h2 >I'm a <b>{myInterest.map((interest) => interest + " | ")}</b> </h2>
                 
             </div>

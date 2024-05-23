@@ -62,6 +62,7 @@ export const items = [
         label: 'Deployment and Source Control',
         children: (
           <div>
+            <img src="https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu" alt="ubuntu_badge" />
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub_badge" />
             <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker_badge" />
             <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="GIT_badge" />
@@ -69,6 +70,8 @@ export const items = [
             <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx_badge" />
             <img src="https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white" alt="Gunicorn_badge" />
             <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=orange" alt="Firebase_badge" />
+            <img src="https://img.shields.io/badge/sentry-pink?style=for-the-badge&logo=sentry" alt="sentry_badge"/>
+            <img src="https://img.shields.io/badge/vim-black?style=for-the-badge&logo=vim" alt="vim" />
           </div>
         ),
       },
@@ -80,6 +83,10 @@ export const items = [
             <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger_badge" />
             <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman_badge" />
             <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=orange" alt="Firebase_badge" />
+            <img src="https://img.shields.io/badge/pypdf2-green?style=for-the-badge&logo=pypdf2" alt="pypdf2_badge" />
+            <img src="https://img.shields.io/badge/RabbitMQ-purple?style=for-the-badge&logo=RabbitMQ" alt="rabbit_badge" />
+
+            
         </div>
       ),
     },

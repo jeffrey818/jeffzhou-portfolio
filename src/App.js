@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TopNavigationBar from './components/NavigationBar';
 import HomePage from './pages/HomePage';
 import LandingPage from './pages/LandingPage';
+import Experience from './pages/Experience';
 //antD
 import { Layout, ConfigProvider, theme,  FloatButton } from 'antd';
 import { MoonFilled, SunFilled } from '@ant-design/icons';
@@ -14,7 +15,7 @@ const { Content, Footer } = Layout;
 
 function App() {
   const { defaultAlgorithm, darkAlgorithm } = theme;
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const handleClick = () => {
     setIsDarkMode((previousValue) => !previousValue);
@@ -38,6 +39,7 @@ function App() {
                 <Routes>
                   <Route path='/' element={<LandingPage />}/>
                   <Route path='/home' element={<HomePage />}/>
+                  <Route path='/experience' element={<Experience />}/>
                   
                 </Routes>
               </Content>

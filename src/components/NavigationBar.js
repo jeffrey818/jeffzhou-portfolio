@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu, Switch } from 'antd';
-import { MailOutlined, AppstoreOutlined, HomeOutlined } from '@ant-design/icons';
+import { MailOutlined, AppstoreOutlined, HomeOutlined, CodeTwoTone} from '@ant-design/icons';
 import { Link, useLocation } from 'react-router-dom';
 
 const TopNavigationBar = () => {
@@ -11,6 +11,7 @@ const TopNavigationBar = () => {
   const pathToKey = {
     '/': 'landing',
     '/home': 'home',
+    '/experience':'experience',
   };
 
   const items = [
@@ -23,6 +24,11 @@ const TopNavigationBar = () => {
       label: <Link to="/home" >About & Skills</Link>,
       key: 'home',
       icon: <HomeOutlined />,
+    },
+    {
+      label: <Link to="/experience" >Project Experience</Link>,
+      key: 'experience',
+      icon: <CodeTwoTone />,
     },
     
   ]

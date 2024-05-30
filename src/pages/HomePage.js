@@ -8,8 +8,8 @@ const HomePage = () => {
   return (
     <div className='app-content'>
       <Row justify='center' align='middle'>
-        <Col span={3} />
-        <Col span={18} >
+        <Col span={2} />
+        <Col span={19} >
           <div style={{ textAlign: 'center' }}>
             <Space
               direction="vertical"
@@ -20,7 +20,7 @@ const HomePage = () => {
             
           </div>
         </Col>
-        <Col span={3} />
+        <Col span={2} />
       </Row>
       
     </div>

@@ -1,13 +1,15 @@
 import React from 'react';
 import { Row, Col, Space, Card } from 'antd';
 import photocontestImage from '../images/photocontest.png';
+import projectA from '../images/projectA.JPG'
+import shiftscheduler from '../images/shift-calendar.png'
 
 const Experience = () => {
   return (
     <div className='app-content'>
       <Row justify='center' align='middle'>
-        <Col span={3} />
-        <Col span={18} >
+        <Col span={2} />
+        <Col span={19} >
           <div style={{ textAlign: 'center' }}>
             <Space
               direction="vertical"
@@ -25,7 +27,7 @@ const Experience = () => {
                         <p style={{ fontSize: '16px' }}>
                             Demo Upon Request 
                         </p>
-                        
+                        <img src={projectA} alt="projectA" style={{ maxWidth: '100%' }} width="70%" height="auto"/>
                         
                         
                     </div>
@@ -44,7 +46,7 @@ const Experience = () => {
                             <a href="https://github.com/jeffrey818/Photo-Competition-Web-App"
                                 target="_blank" rel="noopener noreferrer" >Link Text</a>
                         </p>
-                        <img src={photocontestImage} style={{ maxWidth: '100%' }}/>
+                        <img src={photocontestImage} alt="photocontest" style={{ maxWidth: '100%' }} width="70%" height="auto"/>
                         
                         
                     </div>
@@ -57,9 +59,14 @@ const Experience = () => {
                     fontSize: "14px"
                     }}
                 >
-                    
+                    <div>
+                        <p style={{ fontSize: '16px' }}>
+                            Demo Upon Request 
+                        </p>
+                        <img src={shiftscheduler} alt="shiftscheduler" style={{ maxWidth: '100%' }} width="30%" height="auto"/>
+                    </div>
                 </Card>
-                <Card
+                {/* <Card
                     title="Edmonton Property Assessment"
                     bordered={false}
                     style={{
@@ -68,13 +75,13 @@ const Experience = () => {
                     }}
                 >
                     
-                </Card>
+                </Card> */}
 
             </Space>
             
             </div>
         </Col>
-        <Col span={3} />
+        <Col span={2} />
       </Row>
       
     </div>

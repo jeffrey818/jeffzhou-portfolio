@@ -27,6 +27,9 @@ const Experience = () => {
                         <p style={{ fontSize: '16px' }}>
                             Demo Upon Request 
                         </p>
+                        <p>
+                            Project Info: The web application focus on pulling data from the tablet submissions with Restful APIs and stores the data in the customized format in the database, which is to automate the procedures for making PDFs/Excel Reports for sending to the government for further purposes.
+                        </p>
                         <img src={projectA} alt="projectA" style={{ maxWidth: '100%' }} width="70%" height="auto"/>
                         
                         
@@ -46,6 +49,9 @@ const Experience = () => {
                             <a href="https://github.com/jeffrey818/Photo-Competition-Web-App"
                                 target="_blank" rel="noopener noreferrer" >Link Text</a>
                         </p>
+                        <p>
+                        Project Info: The Web application is a platform where photo lovers can view photos from each other and vote for their favorite photos.
+                        </p>
                         <img src={photocontestImage} alt="photocontest" style={{ maxWidth: '100%' }} width="70%" height="auto"/>
                         
                         
@@ -62,6 +68,9 @@ const Experience = () => {
                     <div>
                         <p style={{ fontSize: '16px' }}>
                             Demo Upon Request 
+                        </p>
+                        <p>
+                        Project Info: The Android application is for a restaurant manager to manage the schedules shifts for his employees.
                         </p>
                         <img src={shiftscheduler} alt="shiftscheduler" style={{ maxWidth: '100%' }} width="30%" height="auto"/>
                     </div>

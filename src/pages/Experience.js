@@ -8,8 +8,8 @@ const Experience = () => {
   return (
     <div className='app-content'>
       <Row justify='center' align='middle'>
-        <Col span={2} />
-        <Col span={19} >
+        <Col span={1} />
+        <Col span={22} >
           <div style={{ textAlign: 'center' }}>
             <Space
               direction="vertical"
@@ -90,7 +90,7 @@ const Experience = () => {
             
             </div>
         </Col>
-        <Col span={2} />
+        <Col span={1} />
       </Row>
       
     </div>

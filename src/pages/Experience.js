@@ -1,10 +1,14 @@
 import React from 'react';
 import { Row, Col, Space, Card } from 'antd';
 import photocontestImage from '../images/photocontest.png';
-import projectA from '../images/projectA.JPG'
+// import projectA from '../images/projectA.JPG'
 import shiftscheduler from '../images/shift-calendar.png'
+import ProjectCard from './components/ProjectCard';
+
 
 const Experience = () => {
+  
+
   return (
     <div className='app-content'>
       <Row justify='center' align='middle'>
@@ -15,26 +19,9 @@ const Experience = () => {
               direction="vertical"
               size="middle"
               style={{ width: '100%' }}>
-                <Card
-                    title="First Nation Asset Management and Data Analytical CRUD Django-React Full Stack Web-application"
-                    bordered={false}
-                    style={{
-                    width: '100%',
-                    fontSize: "14px"
-                    }}
-                >
-                    <div>
-                        <p style={{ fontSize: '16px' }}>
-                            Demo Upon Request 
-                        </p>
-                        <p>
-                            Project Info: The web application focus on pulling data from the tablet submissions with Restful APIs and stores the data in the customized format in the database, which is to automate the procedures for making PDFs/Excel Reports for sending to the government for further purposes.
-                        </p>
-                        <img src={projectA} alt="projectA" style={{ maxWidth: '100%' }} width="70%" height="auto"/>
-                        
-                        
-                    </div>
-                </Card>
+                <div style={{ padding: "20px" }}>
+                    <ProjectCard />
+                </div>
                 <Card
                     title="Photo Contest – Full Stack Web App"
                     bordered={false}
